@@ -1,0 +1,15 @@
+.all{
+    background-color: aliceblue;
+}
+.news-1{
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+}
+.news-2{
+    text-align: center;
+}
+.news-3{
+    width: 100%;
+    height: 200px;
+}

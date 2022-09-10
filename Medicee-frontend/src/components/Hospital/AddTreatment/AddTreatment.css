@@ -1,0 +1,72 @@
+.giveborder {
+  margin-left: 10%;
+  width: 90%;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.options {
+  cursor: pointer;
+  padding: 0 60px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.options-container {
+  position: absolute;
+  z-index: 3;
+}
+.treatment-1{
+  background-image: url('./Images/1.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
+  
+}
+.treatment-2{
+  background-color: rgba(0, 0, 0, 0.521);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.treatment-3{
+  color: rgba(255, 255, 255, 0.954);
+  font-size: 60px;
+  font-weight: 400;
+}
+.treatment-4{
+  color: white;
+}
+.treatment-5{
+  color: #00d5ff;
+  text-decoration: none;
+}
+.treatment-5:hover{
+  color: white;
+}
+
+@media screen and  (max-width:600px) {
+  .treatment-3{
+      color: rgba(255, 255, 255, 0.954);
+      font-size: 40px;
+      font-weight: 400;
+  }
+  .treatment-4{
+      color: white;
+  }
+  .treatment-5{
+      color: #00d5ff;
+      text-decoration: none;
+  }
+  .treatment-5:hover{
+      color: white;
+  }
+
+}

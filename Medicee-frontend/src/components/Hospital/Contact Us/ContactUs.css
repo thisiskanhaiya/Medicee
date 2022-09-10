@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@300&family=Signika:wght@300;400;500&display=swap');
+body
+{
+    background-color: #D6E5F3;
+    font-family: 'Signika', sans-serif;
+}
+.error-part{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: red;
+}
+.design{
+    color:black;
+    /* background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
+    /* background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #bf77bf 30%, #FFCC70 66%, #10cab6 100%); */
+}
+.card-emergency{
+    color:rgb(179, 47, 47);
+}
+.send{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,83 @@
+.health-1{
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.healthcarec {
+  background-color: #f7f7f7;
+}
+
+.partnership {
+  background-color: #f7f7f7;
+  width: 100vw;
+}
+.health-2{
+  margin-top: 50px;
+  text-align: center;
+}
+.grid_pic {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: (1, 1fr);
+  grid-gap: 10px;
+}
+.health-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.health-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outergrid {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid; */
+  height: 80vh;
+  align-items: center;
+  /* width: 80vw; */
+}
+
+.img-grid {
+  width: 380px;
+  height: 350px;
+  cursor: pointer;
+}
+
+.partnership {
+  display: flex;
+  justify-content: space-around;
+  /* padding-left: 40px; */
+}
+.partnership img {
+  width: 500px;
+}
+
+#partners {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  color: rgb(8, 0, 0);
+
+  position: relative;
+  top: 20px;
+}
+
+#partners a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .par img{
+    width: 300px;
+    height: 150px;
+  }
+}
+

@@ -1,0 +1,41 @@
+.heading{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.centercards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.centerpagination{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centermypagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.takemargin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.aligncenter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.paper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

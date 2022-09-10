@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@300&family=Signika:wght@300;400;500&display=swap');
+body
+{
+    background-color: #D6E5F3;
+    font-family: 'Signika', sans-serif;
+}
+.error-part{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: red;
+}
+.registration-page{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.login-content{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 80px 80px;
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;  
+}
+
+.material-icons-name{
+    font-size: 20px;
+}
+
+.form-group{
+    margin-bottom: 25px !important;
+    width: 350px;
+}
+
+.form-group .roshan{
+    width: 90%;
+}
+
+.form-group input{
+    all: unset;
+    border-bottom: 1px solid black;
+    margin-left:15px ;
+    min-width: 200px;
+}
+
+#login{
+    all: unset;
+    color: white;
+    background-color: rgb(87, 143, 211);
+    padding: 7px 23px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.login-image{
+    width: 45vw;
+    width: 480px;
+}
+
+.login-image img{
+    width: 100%;
+}
+
+@media screen and  (max-width:900px) {
+    .login-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .login-image{
+        max-width: 300px;
+    }
+}
+
+@media screen and  (max-width:600px) {
+    .login-content{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        padding: 10px 10px;
+        background-color: rgb(255, 254, 254);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .material-icons-name{
+        font-size: 15px;
+    }
+    .form-group{
+        margin-bottom: 25px !important;
+        width: 300px;
+        
+    }
+    .form-group .roshan{
+        width: 90%;
+    }
+    .login-image{
+        max-width: 300px;
+    }
+    .margin-top{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+}

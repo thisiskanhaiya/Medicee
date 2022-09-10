@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@300&family=Signika:wght@300;400;500&display=swap');
+body
+{
+    background-color: #D6E5F3;
+    font-family: 'Signika', sans-serif;
+}
+.error-part{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: red;
+}
+.design{
+    color:black;
+    /* background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
+    /* background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #bf77bf 30%, #FFCC70 66%, #10cab6 100%); */
+}
+.card-emergency{
+    color:rgb(179, 47, 47);
+}
+.send{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-1{
+    background-image: url('./firsts.png');
+    width: 100%;
+    height: 300px;
+}
+.contact-2{
+    background-color: rgba(0, 0, 0, 0.578);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-3{
+    color: rgba(255, 255, 255, 0.954);
+    font-size: 60px;
+    font-weight: 400;
+}
+.contact-4{
+    color: white;
+}
+.contact-5{
+    color: #00d5ff;
+    text-decoration: none;
+}
+.contact-5:hover{
+    color: white;
+}
+.contact-8{
+    width: 100%;
+    height: 400px;
+}
+.contact-9{
+    width: 100%;
+    height: 400px;
+}
+.takewidth{
+    width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .takewidth{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-3{
+        color: rgba(255, 255, 255, 0.954);
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .contact-4{
+        color: white;
+    }
+    .contact-5{
+        color: #00d5ff;
+        text-decoration: none;
+    }
+    .contact-5:hover{
+        color: white;
+    }
+    .takewidth{
+        width: 100%;
+    }
+    
+    
+  }

@@ -1,0 +1,90 @@
+.specialist h1{
+
+   color: #00234B;
+   text-align: center;
+font-size: 2rem;
+padding: 40px;
+}
+
+
+
+
+
+
+.specialist{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+
+
+.cards {
+/* width: 200px; */
+/* height: 200px; */
+background-color: rgb(255, 255, 255);
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+/* border: 2px solid; */
+margin: 10px;
+flex-direction: column;
+
+border-radius: 20px;        
+
+
+}
+
+.cards a{
+    
+    font-weight: 400;
+    font-size: large;
+    text-decoration: none;
+    color: #00234B;
+
+}
+
+
+
+.cards:hover{
+    background: #ededed;
+    cursor: pointer;
+}
+
+.card_main{
+
+    display: grid;
+    width: 80vw;
+    justify-content: center;
+
+    grid-template-columns: repeat(6,200px);
+    grid-template-rows: repeat(1,200px);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+
+    .card_main{
+
+        display: grid;
+        width: 100vw;
+        justify-content: center;
+        /* align-items: center; */
+        grid-template-columns: repeat(2,180px);
+        grid-template-rows: repeat(3,1fr);
+        /* align-items: center; */
+    }
+    
+    
+
+
+
+
+
+  }

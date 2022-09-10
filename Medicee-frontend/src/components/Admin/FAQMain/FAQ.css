@@ -1,0 +1,68 @@
+
+.heading{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.centercards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.centerpagination{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centermypagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.takemargin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.aligncenters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.accordion {
+  width: 60vw;
+}
+
+.typography {
+  font-size: 2px;
+  text-align: left;
+}
+.paginationpickcenter{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .accordion {
+    width: 90vw;
+  }
+
+  .faq_outside h1 {
+    text-align: center;
+    padding: 20px;
+  }
+}
+  

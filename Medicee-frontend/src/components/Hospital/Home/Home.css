@@ -1,0 +1,126 @@
+.home-1 {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.takemargin{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.centercards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text_doctors h1 {
+  text-align: left;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #00234b;
+}
+
+.home-3{
+  background-color: white;
+  height: 60px;
+}
+
+.home-4{
+  background-color: rgb(255, 255, 0);
+  height: 60px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+
+}
+.homeselect-1{
+  height: 60px;
+  border: none;
+  outline: none;
+}
+
+.home-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input_field {
+  height: 60px;
+  border: none;
+  outline: none;
+}
+.aligntopic{
+  text-align: center;
+}
+
+.input_field::placeholder {
+  padding-left: 20px;
+  color: #00234b;
+}
+
+.input_field:focus {
+  padding-left: 15px;
+}
+
+.find_doctors {
+  display: grid;
+  gap: 2px;
+
+  grid-template-columns: repeat(4, 1fr) 100px;
+  padding-top: 40px;
+}
+
+.find_doctors div {
+  background-color: #ffff;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.text_doctors span:before {
+  content: "";
+  animation: 10s infinite animate ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    content: "doctors";
+  }
+  30% {
+    content: "dermatologists";
+  }
+  65% {
+    content: "OB-GYNs";
+  }
+  100% {
+    content: "dentists";
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-9{
+    margin-left: 5px;
+  }
+  .home-1 {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text_doctors h1 {
+    margin-left: 5px;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #00234b;
+  }
+}

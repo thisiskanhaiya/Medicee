@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@300&family=Signika:wght@300;400;500&display=swap');
+body
+{
+    background-color: #D6E5F3;
+    font-family: 'Signika', sans-serif;
+}
+
+.margin{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.sizeimage{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.content-center{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-center-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-1 {
+    width: 100%;
+    height: 400px;
+}
+.service-2{
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .service-1 {
+        width: 100%;
+        height: 200px;
+    }
+    .service-2{
+        font-size: 20px;
+    }
+}
+
